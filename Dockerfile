@@ -4,7 +4,7 @@ FROM node:26@sha256:a723b54c35a76e947095a20a67d39585bb09c862e6b1adeb8a9f518f95e3
 WORKDIR /app
 COPY . .
 RUN corepack enable; \
-  yarn install --immutable; \
+  yarn install; \
   yarn build
 
 # final image
