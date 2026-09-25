@@ -37,12 +37,5 @@ jobs:
         if: github.ref != 'refs/heads/main'
         with:
           context: .
-          tags: quay.io/muhlba91/fh-burgenland-bswe-docusaurus:${{ github.event.pull_request.head.sha }}
-          push: true
-
-      - uses: docker/build-push-action@c3c9e263c25d99ce0380d002d59b67737d91b0dc # v7.4.0
-        if: github.ref == 'refs/heads/main'
-        with:
-          context: .
-          tags: quay.io/muhlba91/fh-burgenland-bswe-docusaurus:latest
+          tags: quay.io/muhlba91/hochschule-burgenland-docusaurus-demo:${{ github.event.pull_request.head.sha }}
           push: true
