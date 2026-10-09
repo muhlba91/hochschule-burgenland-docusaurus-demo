@@ -1,13 +1,13 @@
 ---
 id: greeting
-title: Docusaurus Greeting
+title: BSWE New Greeting
 description: Create a doc page with rich content.
 tags:
   - greeting
   - getting-started
 ---
 
-# Hello from Docusaurus
+# Hello from BSWE!
 
 Are you ready to create the documentation site for your open source project?
 
