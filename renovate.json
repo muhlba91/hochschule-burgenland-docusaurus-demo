@@ -8,6 +8,7 @@
     "enabledManagers": [
         "github-actions",
         "pre-commit",
-        "npm"
+        "npm",
+        "mise"
     ]
 }
