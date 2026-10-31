@@ -5,4 +5,4 @@ lockfile = true
 lockfile_platforms = ["macos-arm64", "linux-x64", "linux-arm64"]
 
 [tools]
-node = "24.22.1"
+node = "26.13.0"
