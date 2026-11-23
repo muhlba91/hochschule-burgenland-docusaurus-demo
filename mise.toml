@@ -6,3 +6,4 @@ lockfile_platforms = ["macos-arm64", "linux-x64", "linux-arm64"]
 
 [tools]
 node = "26.13.1"
+"npm:markdownlint-cli2" = "0.24.2"

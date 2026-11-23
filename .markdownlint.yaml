@@ -1,0 +1,13 @@
+---
+# Markdown rules for the pre-commit hook.
+default: true
+MD013: false # prose and tables are not wrapped
+MD024:
+  siblings_only: true # the tutorial repeats a heading under different parents
+MD025:
+  front_matter_title: "" # Docusaurus takes the page title from the front matter and the body keeps its h1
+MD026:
+  punctuation: ".,;:" # allow "!" in titles
+MD033:
+  allowed_elements: [br, details, summary, Highlight] # Highlight is a Docusaurus MDX component
+MD046: false # the MDX feature demo shows indented code blocks on purpose
